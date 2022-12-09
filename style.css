@@ -1,0 +1,51 @@
+@font-face {
+    font-family: "Thin";
+    src: url(./fonts/Roboto-Thin.ttf) format('truetype');
+}
+#title{
+    font-family: "Thin";
+    text-align: center;
+}
+header{
+    visibility: visible;
+    background-color: cyan;
+    height: 90px;
+    width: 100%;
+    padding: 10px;
+    transform: translate(-12px,0);
+    margin-top: -10px;
+}
+#gameUI{
+    transform: translate(45%, 0);
+    width: 60%;
+    margin-top: 200px;
+}
+.img{
+    height: 75px;
+    width: 150px;
+}
+#rock, #scissors, #paper{
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+    background-color: whitesmoke;
+    margin-right: 100px;
+}
+.instructions{
+    font-family: "Thin";
+    margin-left: -200px;
+    text-align: center;
+}
+#victories, #loses, #draws{
+    font-family: "Thin";
+    margin-bottom: 35px;
+    transform: translate(-40%, -300px);
+}
+#round, #gameOver{
+    font-family: "Thin";
+    text-align: center;
+    transform: translate(0,-70px);
+}
+#gameOver{
+    color:blueviolet;
+}
