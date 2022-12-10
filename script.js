@@ -59,32 +59,3 @@ function playRound(playerSelection, computerSelection, plays){
     }
     updateValue(victories, loses, draws);
 }
-/*function game(){
-    alert("Welcome to Rock - Scissors - Paper!");
-    alert("You're going to play against computer. ");
-    alert("Let's start!");
-
-    var results = "";
-    for(let i = 0; i < 5; i++){
-        while(true){
-            var playerChoice = (prompt("Select and item(rock, scissors, paper): ").toLowerCase()).replaceAll(' ', ''); 
-            if(possiblePlays.includes(playerChoice)){
-                break;
-            }
-            else{
-                alert("Invalid data, try again.");
-            }
-        }
-        results += `${playRound(playerChoice, computerPlay(possiblePlays), possiblePlays)} \n`;
-    }
-    if(victories > loses){
-        return `Player wins! \nResults: \n${results}`;
-    }
-    else if(loses > victories){
-        return `Computer wins! \nResults: \n${results}`;
-    }
-    else if (victories == loses){
-        return `It was a draw! \nResults: \n${results}`;
-    }
-}
-console.log(game());*/
